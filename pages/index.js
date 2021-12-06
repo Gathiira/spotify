@@ -1,15 +1,18 @@
 import Head from 'next/head'
-import Sidebar from '../components/Sidebar'
+import Center from '../components/Center';
+import Sidebar from '../components/Sidebar';
 
 export default function Home() {
   return (
     <div className="bg-black h-screen overflow-hidden">
-        <main className=''>
-        {/*   side bar */}
-        <Sidebar/>
+        <main className='flex'>
+          {/*   side bar */}
+          <Sidebar/>
 
-        {/*   center */}
+          {/*   center */}
+          <Center />
         </main>
+
         <div>
         {/*    Player */}
         </div>
