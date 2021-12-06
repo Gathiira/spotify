@@ -22,7 +22,7 @@ function Sidebar() {
                 </button>
                 <button className='flex items-center space-x-2 hover:text-white'> 
                     <LibraryIcon className="h-5 w-5" />
-                    <p>Your Library</p>
+                    <p>Library</p>
                 </button>
 
                 <hr  className='border-t-[0.1px] border-gray-900' />
@@ -41,6 +41,15 @@ function Sidebar() {
                 </button>
 
                 {/* playlist */}
+                <p className='cursor-pointer hover:text-white'>Playlist name ...</p>
+                <p className='cursor-pointer hover:text-white'>Playlist name ...</p>
+                <p className='cursor-pointer hover:text-white'>Playlist name ...</p>
+                <p className='cursor-pointer hover:text-white'>Playlist name ...</p>
+                <p className='cursor-pointer hover:text-white'>Playlist name ...</p>
+                <p className='cursor-pointer hover:text-white'>Playlist name ...</p>
+                <p className='cursor-pointer hover:text-white'>Playlist name ...</p>
+                <p className='cursor-pointer hover:text-white'>Playlist name ...</p>
+                <p className='cursor-pointer hover:text-white'>Playlist name ...</p>
             </div>
         </div>
     )
